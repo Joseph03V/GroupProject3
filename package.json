@@ -1,0 +1,15 @@
+{
+  "name": "groupproject3",
+  "version": "1.0.0",
+  "description": "A social media application to show off your pets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1"
+  }
+}

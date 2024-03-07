@@ -22,9 +22,26 @@ const resolvers = {
         }
     },
     Mutation: {
-        createPost: async (parent,args) => {
-            const post = await Post.create(args)
-            return post
+        createPost: async (parent,{args}) => {
+            return await Post.create(args)
+        },
+        creatUser: async (parent,{args}) => {
+            return await User.create(args)//how to link pets?
+        },
+        createReaction: async (parent,{args}) => {
+            return await Reaction.create({args})//how to link post?
+        },
+        addPet: async (parent,{username,pets}) => {
+            const pet = await User.findOneAndUpdate(
+                {username},
+                {pets},
+                {new:true})
+        },
+        addFriend: async (parent,{username,friends}) => {
+            return await User.findOneAndUpdate(
+                {username:username},
+                {friends},
+                {new:true})
         }
     }
 }

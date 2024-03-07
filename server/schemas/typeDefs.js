@@ -33,6 +33,14 @@ type Query {
     pets: [Pet]
     friends: [User]
 }
+
+Type Mutation {
+    createPost(username:String!,createdAt:Date!,postImage:Image,postText:String!) : Post
+    createUser(username:String!,pets:String!) : User
+    createReaction(username: String!,createdAt:Date!,reactionBody:String!) : Reaction
+    addPet(username:String!,pets:String!) : User
+    addFriend(username:String!,friends:String!) : User
+}
 `
 
 module.exports = typeDefs

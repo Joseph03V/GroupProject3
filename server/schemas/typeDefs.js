@@ -1,19 +1,22 @@
 const typeDefs = `
 type Post {
+    _id: ID!
     username: String
     createdAt: String
     postImage: Image
-    post Text: String
+    postText: String
     reactions: [Reactions]
 }
 
 type Reaction {
+    _id: ID!
     username: String
     reactionBody: String
     createdAt: String
 }
 
 Type User {
+    _id: ID!
     username: String
     posts: [Post]
     pets: [pets]
@@ -21,6 +24,7 @@ Type User {
 }
 
 Type Pet {
+    _id: ID!
     name: String
     breed: String
     gender: String

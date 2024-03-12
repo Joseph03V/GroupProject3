@@ -1,5 +1,6 @@
 import { PhotoIcon, UserIcon, FingerPrintIcon, PlusCircleIcon } from '@heroicons/react/24/outline'
 
+
 const features = [
   {
     name: 'Create an account',

@@ -10,5 +10,33 @@
     {
         "username": "myDogBites21",
         "postText": "Just bought this sick spiked collar for my pitbull"
+    },
+    {
+        "username": "birdWatcher88",
+        "postText": "Spotted a rare blue jay in my backyard today!"
+    },
+    {
+        "username": "fishFanatic42",
+        "postText": "New aquarium setup! Check out my colorful fish."
+    },
+    {
+        "username": "gardenGuru55",
+        "postText": "Harvested the first tomatoes from my garden!"
+    },
+    {
+        "username": "bookworm123",
+        "postText": "Finished reading an amazing novel. Any book recommendations?"
+    },
+    {
+        "username": "musicMaestro789",
+        "postText": "Attended a fantastic concert last night!"
+    },
+    {
+        "username": "travelBug22",
+        "postText": "Just booked a spontaneous trip to Bali!"
+    },
+    {
+        "username": "fitnessFreak101",
+        "postText": "Completed a challenging workout today. Feeling pumped!"
     }
 ]

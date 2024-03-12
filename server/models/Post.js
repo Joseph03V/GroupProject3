@@ -4,9 +4,9 @@ const dateFormat = require ('../../client/src/utils/date')
 
 const postSchema = new Schema (
 {
-    // postImage: {
-    //     type: Image,
-    // },
+    postImage: {
+        type: Image,
+    },
     postText: {
         type: String,
         required: true,
